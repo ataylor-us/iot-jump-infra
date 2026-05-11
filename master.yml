@@ -1,0 +1,15 @@
+---
+- name: Set up debian box
+  hosts: all
+  roles:
+    - system
+    - editor
+    - mounts
+    - backups
+    - firewall
+    - containers
+    - terminal
+    - artis3n.tailscale.machine
+    - notifications
+    - file_manager
+    - reverse_proxy

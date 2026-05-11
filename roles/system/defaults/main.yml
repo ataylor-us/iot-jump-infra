@@ -1,0 +1,9 @@
+---
+packages:
+  - htop
+  - rsync
+  - curl
+  - smartmontools
+enabled_services:
+  - ssh
+  - smartd

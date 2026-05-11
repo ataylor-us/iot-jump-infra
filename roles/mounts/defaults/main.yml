@@ -1,0 +1,8 @@
+---
+packages:
+  - nfs-common
+  - cifs-utils
+  - autofs
+enabled_services:
+  - autofs
+autofs_mounts: []
