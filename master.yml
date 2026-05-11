@@ -4,8 +4,6 @@
   roles:
     - system
     - editor
-    - mounts
-    - backups
     - firewall
     - containers
     - terminal
