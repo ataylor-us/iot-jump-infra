@@ -12,3 +12,4 @@
     - file_manager
     - reverse_proxy
     - machine_wake
+    - hifis.toolkit.unattended_upgrades

@@ -1,3 +1,9 @@
 ---
 gamepc_broadcast_address: "255.255.255.255"
 gamepc_wol_port: 9
+unattended_automatic_reboot: true
+unattended_automatic_reboot_time: "04:00"
+unattended_remove_unused_dependencies: true
+unattended_remove_unused_kernel_packages: true
+unattended_mail: "root"
+unattended_mail_only_on_error: true
