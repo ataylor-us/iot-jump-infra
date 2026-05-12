@@ -1,0 +1,10 @@
+---
+- name: Wake gamepc
+  hosts: iot-jump
+  gather_facts: false
+  tasks:
+    - name: Boot gamepc
+      community.general.wakeonlan:
+        mac: "{{ gamepc_mac_address }}"
+        broadcast: "{{ gamepc_broadcast_address }}"
+        port: "{{ gamepc_wol_port }}"
