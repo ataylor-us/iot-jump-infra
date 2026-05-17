@@ -1,1 +1,1 @@
-../../../../ansible-vault/iot-jump-infra/host_vars/iot-jump/vault.yml
+../../../ansible-vault/iot-jump-infra/host_vars/iot-jump/vault.yml
