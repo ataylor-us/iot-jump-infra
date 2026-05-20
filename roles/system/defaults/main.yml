@@ -3,5 +3,7 @@ packages:
   - htop
   - rsync
   - curl
+  - fail2ban
 enabled_services:
   - ssh
+  - fail2ban
