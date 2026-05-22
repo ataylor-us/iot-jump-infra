@@ -1,5 +1,4 @@
 ---
-gamepc_mac_address: "{{ lookup('community.general.passwordstore', 'Repositories/iot-jump-infra/gamepc_mac_address') }}"
 ssh_key_name: "id_ed25519"
 tailscale_authkey: "dummy"
 username: alex

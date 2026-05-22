@@ -1,4 +1,5 @@
 ---
+gamepc_mac_address: "{{ lookup('community.general.passwordstore', 'Repositories/iot-jump-infra/gamepc_mac_address') }}"
 gamepc_broadcast_address: "255.255.255.255"
 gamepc_wol_port: 9
 unattended_automatic_reboot: true
