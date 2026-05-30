@@ -1,0 +1,13 @@
+---
+apt_repos:
+  - name: voxpupuli
+    url: https://apt.voxpupuli.org
+    key_url: https://apt.voxpupuli.org/GPG-KEY-openvox.pub
+    keyring: /etc/apt/keyrings/voxpupuli.asc
+    suite: "{{ ansible_distribution_release }}"
+    component: main
+packages:
+  - openvox
+enabled_services:
+  - puppet
+puppet_environment: production
