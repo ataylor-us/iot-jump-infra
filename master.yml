@@ -4,7 +4,6 @@
   roles:
     - system
     - editor
-    - firewall
     - terminal
     - role: artis3n.tailscale.machine
       when: "'production' in group_names"
