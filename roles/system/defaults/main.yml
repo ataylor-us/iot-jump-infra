@@ -4,6 +4,8 @@ packages:
   - rsync
   - curl
   - fail2ban
+  - cron
 enabled_services:
   - ssh
   - fail2ban
+  - cron

@@ -9,3 +9,5 @@ ansible-playbook master.yml -e tailscale_authkey=`#key` -e ansible_host=`#ip`
 ```
 
 [Raspberry Pi Imager](https://www.raspberrypi.com/documentation/computers/getting-started.html#imager-install) was used to flash the initial microSD card, with my standard defaults.
+
+Firewall rules (& drift management) are handled externally by [OpenVox](https://voxpupuli.org/openvox/).
