@@ -4,6 +4,7 @@
   roles:
     - system
     - editor
+    - mounts
     - terminal
     - role: artis3n.tailscale.machine
       when: "'production' in group_names"
