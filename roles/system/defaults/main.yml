@@ -3,6 +3,7 @@ packages:
   - htop
   - rsync
   - curl
+  - netcat-openbsd
   - fail2ban
   - cron
 enabled_services:
