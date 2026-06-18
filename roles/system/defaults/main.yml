@@ -10,3 +10,5 @@ enabled_services:
   - ssh
   - fail2ban
   - cron
+masked_services:
+  - bluetooth
