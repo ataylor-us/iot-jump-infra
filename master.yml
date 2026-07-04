@@ -6,8 +6,8 @@
 #   - role: disks
 #     when: "'vm' not in group_names and 'pi' not in group_names"
     - editor
-    - mounts
 #   - backups
+#   - mounts
 #   - containers
     - terminal
     - role: artis3n.tailscale.machine
