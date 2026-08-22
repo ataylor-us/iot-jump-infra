@@ -1,3 +1,7 @@
+# Archived
+
+As of 2026-08-21, this machine has been put back on the bench, so no more updates or changes will be made.
+
 # IoT jump host playbook
 Ansible playbook to set up my IoT network jump host. Retroactively merging in commits from [debian-base-infra](https://github.com/ataylor-us/debian-base-infra).
 
